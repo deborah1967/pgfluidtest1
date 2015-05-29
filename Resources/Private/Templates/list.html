@@ -1,0 +1,14 @@
+<table border="1" cellspacing="1" cellpadding="5">
+    <tr>
+        <td>Productname</td>
+        <td>Productdescription</td>
+        <td>Quantity</td>
+    </tr>
+    <f:for each="{products}" as="product">
+        <tr>
+            <td valign="top">{product.name}</td>
+            <td valign="top">{product.description}</td>
+            <td valign="top">{product.quantity}</td>
+        </tr>
+    </f:for>
+</table>

@@ -15,4 +15,7 @@ namespace TestVendor1\Pgfluidtest1\Domain\Repository;
 
 
 
-class ProductRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {}
+class ProductRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
+
+    public function testme() {}
+}

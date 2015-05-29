@@ -17,7 +17,6 @@ namespace TestVendor1\Pgfluidtest1\Controller;
 use \TestVendor1\Pgfluidtest1\Domain\Repository\ProductRepository;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
-//use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 class Pgfluidtest1Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
